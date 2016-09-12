@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+  <head>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap select</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/css/bootstrap-select.min.css">
+  </head>
+  <body>
+   <div class="container">
+   	<div class="row">
+   	
+		<div class="jumbotron">
+			<h1>Multiple Item Picker</h1>
+			<select id="multiple" class="selectpicker" data-live-search="true" multiple title="-- Multiple selector --">
+			  <option data-tokens="Option #1">Option #1</option>
+			  <option data-tokens="Option #2">Option #2</option>
+			  <option data-tokens="Option #3">Option #3</option>
+			  <option data-tokens="Option #4">Option #4</option>
+			  <option data-tokens="Option #5">Option #5</option>
+			  <option data-tokens="Option #6">Option #6</option>
+			  <option data-tokens="Option #7">Option #7</option>
+			  <option data-tokens="Option #8">Option #8</option>
+			  <option data-tokens="Option #9">Option #9</option>
+			  <option data-tokens="Option #10">Option #10</option>
+			  <option data-tokens="Option #11">Option #11</option>
+			  <option data-tokens="Option #12">Option #12</option>
+			  <option data-tokens="Option #13">Option #13</option>
+			  <option data-tokens="Option #14">Option #14</option>
+			  <option data-tokens="Option #15">Option #15</option>
+			</select>
+		</div>
+  		
+		<div class="jumbotron">
+			<h1>Single Item Picker</h1>
+			<select id="single" class="selectpicker" data-live-search="true" title="-- Single selector --">
+			  <option data-tokens="Option #1">Option #1</option>
+			  <option data-tokens="Option #2">Option #2</option>
+			  <option data-tokens="Option #3">Option #3</option>
+			  <option data-tokens="Option #3">Option #3</option>
+			  <option data-tokens="Option #4">Option #4</option>
+			  <option data-tokens="Option #5">Option #5</option>
+			  <option data-tokens="Option #6">Option #6</option>
+			  <option data-tokens="Option #7">Option #7</option>
+			  <option data-tokens="Option #8">Option #8</option>
+			  <option data-tokens="Option #9">Option #9</option>
+			  <option data-tokens="Option #10">Option #10</option>
+			  <option data-tokens="Option #11">Option #11</option>
+			  <option data-tokens="Option #12">Option #12</option>
+			  <option data-tokens="Option #13">Option #13</option>
+			  <option data-tokens="Option #14">Option #14</option>
+			  <option data-tokens="Option #15">Option #15</option>
+			</select>
+		</div>
+   		
+   	</div>
+   </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.min.js"></script>
+    
+<script>
+$('#multiple').selectpicker({style: 'btn-primary'});
+$('#single').selectpicker({style: 'btn-default'});
+</script>
+  </body>
+</html>
